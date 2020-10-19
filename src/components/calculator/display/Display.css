@@ -1,0 +1,20 @@
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 48px 3vw;
+
+  background-color: #34495e;
+}
+
+.data {
+  margin: 0;
+
+  font-size: 48px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
