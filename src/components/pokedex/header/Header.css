@@ -1,8 +1,8 @@
-.Calculator .Header {
+.Pokedex .Header {
   display: flex;
   flex-direction: row;
 
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
   width: 100%;
@@ -10,18 +10,20 @@
   padding: 16px;
   box-sizing: border-box;
 
-  background-color: #1f3a93;
+  background-color: #FF0000;
 }
 
-.Calculator .Header .title {
+.Pokedex .Header .title {
   margin: 0;
 
   font-size: 24px;
   font-weight: 300;
   letter-spacing: 1px;
+
+  color: white;
 }
 
-.Calculator .Header .logo {
+.Pokedex .Header .logo {
   max-height: 100%;
 
   animation: spin 20s linear infinite;

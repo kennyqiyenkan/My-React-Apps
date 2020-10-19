@@ -1,0 +1,20 @@
+.Menu {
+  width: 300px;
+  height: calc(100vh - 100px); /*Accounting for Header height*/
+
+  background-color: #CC0000;
+}
+
+.Menu .MenuItem {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+
+  color: white;
+}

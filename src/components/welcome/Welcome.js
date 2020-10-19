@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
 
 import NavCard from './NavCard'
 
 import './Welcome.css';
 import logo from '../../images/logo.svg'
 import calcLogo from '../../images/calculator.svg'
+import dexLogo from '../../images/pokedex.svg'
 
 class Welcome extends Component {
   render() {
@@ -20,6 +20,7 @@ class Welcome extends Component {
         </p>
         <div className='container-apps'>
           <NavCard to='/calculator' img={calcLogo} label='Calculator' />
+          <NavCard to='/pokedex' img={dexLogo} label='Pokédex' />
         </div>
       </div>
     )
