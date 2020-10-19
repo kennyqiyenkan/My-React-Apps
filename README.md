@@ -1,3 +1,13 @@
+# My React Apps
+Hi there. If you have stumbled your way here, I do hope it was intentional. If not, that is fine too. The purpose of this repo is for me to store my experimentation with React. Over time, I hope to add more and more mini apps into this repo, showcasing my learnings from various locations.
+
+## Current Mini Apps:
+### Calculator
+This was my very first attempt at creating something from scratch using React. I went through an entire basic React course over at [Scrimba](https://scrimba.com/learn/learnreact/) before attempting this. A to-do app was rather dull, so I decided to try a take at a simple calculator.
+
+
+
+## Where I Got This From & How To Use It
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
