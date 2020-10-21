@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
-import {withRouter} from 'react-router-dom'
+import { withRouter } from 'react-router-dom'
+
+import './NavCard.css'
 
 class NavCard extends Component {
   goTo = () => {
@@ -9,7 +11,7 @@ class NavCard extends Component {
   render() {
     return (
       <div className='NavCard' onClick={this.goTo}>
-        <img className='logo' src={this.props.img} alt='img' />
+        { this.props.img && <img className='logo' src={this.props.img} alt='img' /> }
         <p className='label'>{this.props.label}</p>
       </div>
     )

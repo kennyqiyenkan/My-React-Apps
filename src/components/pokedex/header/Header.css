@@ -10,7 +10,7 @@
   padding: 16px;
   box-sizing: border-box;
 
-  background-color: #FF0000;
+  background-color: #141618;
 }
 
 .Pokedex .Header .title {
@@ -25,7 +25,6 @@
 
 .Pokedex .Header .logo {
   max-height: 100%;
-
-  animation: spin 20s linear infinite;
+  margin-right: 18px;
 }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

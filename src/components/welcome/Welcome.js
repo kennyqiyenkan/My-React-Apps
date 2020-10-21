@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import NavCard from './NavCard'
+import NavCard from '../common/NavCard'
 
 import './Welcome.css';
 import logo from '../../images/logo.svg'

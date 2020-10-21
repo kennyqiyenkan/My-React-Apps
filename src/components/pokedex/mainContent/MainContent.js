@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import Menu from './menu/Menu'
 import Splash from './Splash'
+import Regions from './region/Regions'
 
 import './MainContent.css'
 
@@ -17,7 +18,7 @@ class MainContent extends Component {
               <Splash />
             </Route>
             <Route path={`/pokedex/pokemon`}>
-              <h3>Pokemon</h3>
+              <Regions />
             </Route>
           </Switch>
         </div>

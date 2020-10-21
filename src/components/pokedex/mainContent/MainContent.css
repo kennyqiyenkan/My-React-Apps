@@ -8,6 +8,10 @@
   height: calc(100vh - 100px); /* Accounting for Header height */
   padding: 24px;
   box-sizing: border-box;
+
+  overflow: scroll;
+
+  background-color: #2F596D;
 }
 
 .MainContent .Splash {

@@ -2,7 +2,7 @@
   width: 300px;
   height: calc(100vh - 100px); /*Accounting for Header height*/
 
-  background-color: #CC0000;
+  background-color: #5E99AE;
 }
 
 .Menu .MenuItem {
@@ -17,4 +17,15 @@
   box-sizing: border-box;
 
   color: white;
+
+  cursor: pointer;
+}
+
+.Menu .MenuItem.active {
+  background-color: #2F596D;
+}
+
+.Menu .MenuItem:hover {
+  color: #141618;
+  background-color: #9DC3CF;
 }

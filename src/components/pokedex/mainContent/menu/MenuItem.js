@@ -9,8 +9,9 @@ class MenuItem extends Component {
   }
 
   render() {
+    const isActive = this.props.location.pathname.includes(this.props.to)
     return (
-      <div className='MenuItem' onClick={this.goTo}>
+      <div className={`MenuItem ${isActive ? 'active' : ''}`} onClick={this.goTo}>
         { this.props.img && <img className='logo' src={this.props.img} alt='img' /> }
         <p className='label'>{this.props.label}</p>
       </div>
