@@ -13,7 +13,9 @@ class MenuItem extends Component {
     return (
       <div className={`MenuItem ${isActive ? 'active' : ''}`} onClick={this.goTo}>
         { this.props.img && <img className='logo' src={this.props.img} alt='img' /> }
-        <p className='label'>{this.props.label}</p>
+        <p className={ this.props.collapsed ? 'label collapsed' : 'label' }>
+          {this.props.label}
+        </p>
       </div>
     )
   }

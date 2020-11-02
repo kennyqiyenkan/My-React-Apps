@@ -12,7 +12,6 @@ class Regions extends Component {
     this.state = {
       dexes: null,
       excluded: [
-        // 'original',
         'conquest-gallery'
       ],
       isLoading: true
@@ -56,11 +55,21 @@ class Regions extends Component {
         {
           this.state.dexes &&
           <div className='container'>
-            {
-              this.state.dexes.map(dex => {
-                return <RegionNavCard key={dex.name} to={`/pokedex/${dex.name}`} label={dex.label} />
-              })
-            }
+            <h1 className='title'>Select region</h1>
+            <p className='subtitle'>
+              There are many regions in the world of Pokemon.
+              Each one having their own unique species of Pokemon as well.
+              Over time, as more games are released, these regions would also be
+              updated with species from other titles. Therefore, we have split the
+              regions by original and updated to make it easier for you to navigate.
+            </p>
+            <div className='regions'>
+              {
+                this.state.dexes.map(dex => {
+                  return <RegionNavCard key={dex.name} to={`/pokedex/${dex.name}`} label={dex.label} />
+                })
+              }
+            </div>
           </div>
         }
       </div>

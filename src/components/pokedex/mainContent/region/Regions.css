@@ -2,12 +2,21 @@
 
 }
 
-.Regions .container {
+.Regions .regions {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+}
+
+.Regions .title {
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.Regions .subtitle {
+  text-align: left;
 }
 
 .RegionNavCard {
@@ -54,7 +63,6 @@
 
 .RegionNavCard:hover .container-label {
   bottom: 18px;
-  box-shadow: 0 6px 6px -3px darkgray;
 }
 
 .RegionNavCard .label {

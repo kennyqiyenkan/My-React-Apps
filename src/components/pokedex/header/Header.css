@@ -26,5 +26,6 @@
 .Pokedex .Header .logo {
   max-height: 100%;
   margin-right: 18px;
+  cursor: pointer;
 }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

@@ -3,6 +3,12 @@
   height: calc(100vh - 100px); /*Accounting for Header height*/
 
   background-color: #5E99AE;
+
+  transition: all 0.25s linear;
+}
+
+.Menu.collapsed {
+  width: 80px;
 }
 
 .Menu .MenuItem {
@@ -19,6 +25,22 @@
   color: white;
 
   cursor: pointer;
+}
+
+.Menu .MenuItem .logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+
+.Menu .MenuItem .label {
+  margin: 0;
+
+  transition: opacity 0.25s linear;
+}
+
+.Menu .MenuItem .label.collapsed {
+  opacity: 0;
 }
 
 .Menu .MenuItem.active {

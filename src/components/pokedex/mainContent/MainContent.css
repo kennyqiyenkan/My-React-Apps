@@ -10,8 +10,11 @@
   box-sizing: border-box;
 
   overflow: scroll;
+  transition: width 0.25s linear;
+}
 
-  background-color: #2F596D;
+.MainContent .content-container.menu-collapsed {
+  width: calc(100vw - 80px); /* Accounting for collapsed Menu width */
 }
 
 .MainContent .Splash {

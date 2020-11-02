@@ -11,8 +11,8 @@ class MainContent extends Component {
   render = () => {
     return (
       <div className='MainContent'>
-        <Menu />
-        <div className='content-container'>
+        <Menu collapsed={this.props.collapsed} />
+        <div className={ this.props.collapsed ? 'content-container menu-collapsed' : 'content-container'}>
           <Switch>
             <Route exact path='/pokedex'>
               <Splash />
