@@ -1,6 +1,6 @@
 .Menu {
-  width: 300px;
-  height: calc(100vh - 100px); /*Accounting for Header height*/
+  width: 16vw;
+  height: calc(100vh - 64px); /*Accounting for Header height*/
 
   background-color: #5E99AE;
 
@@ -24,6 +24,7 @@
 
   color: white;
 
+  overflow: hidden;
   cursor: pointer;
 }
 

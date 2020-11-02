@@ -66,7 +66,7 @@ class Regions extends Component {
             <div className='regions'>
               {
                 this.state.dexes.map(dex => {
-                  return <RegionNavCard key={dex.name} to={`/pokedex/${dex.name}`} label={dex.label} />
+                  return <RegionNavCard key={dex.name} label={dex.label} to={`/${dex.name}`} />
                 })
               }
             </div>

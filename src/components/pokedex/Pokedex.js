@@ -6,7 +6,7 @@ import MainContent from './mainContent/MainContent'
 class Pokedex extends Component {
   constructor() {
     super()
-    this.state = { collapsed: false }
+    this.state = { collapsed: true }
   }
 
   toggleCollapse = () => {

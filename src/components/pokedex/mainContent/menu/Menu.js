@@ -10,8 +10,7 @@ class Menu extends Component {
     super(props)
     this.state = {
       categories: {
-        pokemon: { label: 'Pokémon', to: '/pokemon', img: pokemonLogo },
-        evolution: { label: 'Evolution', to: '/evolution', img: pokemonLogo }
+        pokemon: { label: 'Pokémon', to: '/pokemon?page=1', img: pokemonLogo },
       }
     }
   }
